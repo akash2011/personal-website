@@ -2,13 +2,15 @@ $(document).ready(function() {
     $('#fullpage').fullpage({
       navigation: true,
       navigationPosition: 'right',
-      navigationTooltips: ['Home', 'About','Experiences','Skills','Blog','Contact'],
+      navigationTooltips: ['Home', 'About','Experiences','Skills','Blog','Favourite','Contact'],
       showActiveTooltip: true,
       slidesNavigation: true,
         slidesNavPosition: 'bottom',
       controlArrows:false,
     });
     /* End of full page */
+
+    $('#skills-list').load('skills.html');
 
   /* Get full year */  
     var full_date = new Date();
