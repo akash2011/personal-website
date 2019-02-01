@@ -21,7 +21,7 @@ h1,h2,h3{
   text-transform: uppercase;
 }
 h1{
-	font-size:50px; 
+	font-size:52px; 
 	margin:0;
 	color:#333;
 	text-align:center;
@@ -30,11 +30,11 @@ h1{
 h2{
   color:#3e3e3e;
   padding-top: 20px;
-  font-size: 26px;
+  font-size: 42px;
   text-transform: capitalize;
 }
 h3{
-  
+  font-size: 22px;
 }
 
 /* Global container */
@@ -252,22 +252,26 @@ img {
 /*********************************************************/
 
 
-#section1{
+#home{
 /*background-image: url(images/bghome.jpeg);*/
 background-image: url(images/nyc.jpg);
 }
-#section1 h1,h2{
+#home h1,h2{
   padding:0;
 }
-#section1 img{
+#home img{
     width: 100px;
     margin: 0 0 50px 0;
 }
-#section1 p{
+#home p{
   color:#403f3f;
   padding-top: 10px;
   text-align: center;
   font-size: 21px;
+}
+.fp-tableCell { 
+  box-sizing: border-box;
+  padding: 50px 0;
 }
 .fp-tooltip{
   color:#333;
@@ -303,8 +307,8 @@ background-image: url(images/nyc.jpg);
 .fa:hover{
   color:#c5aa80;
 }
-/* ############################################ End of section 1 ###################### */
-#section2{
+/* ############################################ End of home section  ###################### */
+#about{
 background-color:rgb(238,223,252); 
 background-image: url('images/black-bg.jpg');
 }
@@ -316,13 +320,13 @@ background-image: url('images/black-bg.jpg');
 .about-content img{
   max-width: 100%;
 }
-#section2 p, #section2 h1, #section2 b, #section2 ul li i{
+#about p, #about h1, #about b, #about ul li i{
   color:#636363;
 }
-#section2 ul li i:hover{
+#about ul li i:hover{
   color:#c5aa80;  
 }
-#section2 p{
+#about p{
     line-height: 1.6;
     max-width: 720px;
     margin: 0 auto;
@@ -331,12 +335,12 @@ background-image: url('images/black-bg.jpg');
 }
 
 
-/* ###################################### End of Section 2  ##################################*/
+/* ###################################### End of about Section   ##################################*/
 
-#section3{
+#experiences{
 background-color:rgb(130,213,157); 
 }
-#section3 h1{
+#experiences h1{
   padding-bottom: 0px;
 }
 .experiences-content{
@@ -476,10 +480,10 @@ margin-left: 5%;
 
 /* ###################################### End of section 3 ################################ */
 
-#section4{
+#skills{
 background-color:#999; 
 }
-#section4 .container{
+#skills .container{
   width: 80%;
   margin: 0 auto;
 }
@@ -494,18 +498,18 @@ ul.no-bullets {
     margin: 0px;
     padding: 0px;
 }
-#section4 ul > li .ability-score {
+#skills ul > li .ability-score {
     float: right;
 }
-#section4 ul > li .ability-title {
+#skills ul > li .ability-title {
     display: inline-block;
     width: 60%;
 }
-#section4 ul li{
+#skills ul li{
   margin-bottom: 5px;
   padding: 5px 0;
 }
-#section4 ul li:hover{
+#skills ul li:hover{
   background-color: #88c397;
   padding: 5px 0;
 }
@@ -516,26 +520,26 @@ ul.no-bullets {
 }
 /* ########################################## Ends for Section 4  ###########################*/
 
-#section5{
-  background-color:#f6bf00; 
+#blog{
+  background-color:#f5f5f5; 
 }
-#section5 p{
+#blog p{
   line-height: 1.3;
   margin: 30px auto;
   color: #3e3e3e;
   font-size: 14px;
 }
-#section5 .container{
+#blog .container{
   max-width:90%;
   margin: 0 auto;
 }
 .featured-img img{
   max-width: 100%;
 }
-#section5 h1{
+#blog h1{
   padding-bottom: 30px; 
 }
-#section5 h2{
+#blog h2{
   font-size: 21px;
 }
 /* Create three equal columns that floats next to each other */
@@ -584,16 +588,21 @@ span.comments{
   float: left;
   box-sizing: border-box;
   padding: 0 20px;
+  text-align: center;
 }
 .fav-content img{
   max-width: 100%;
+  width:220px;
+}
+.fav-content p{
+  text-align: center;
 }
 
-#section6{
+#contact{
   background-color:rgb(87, 119, 223); 
 }
 
-#section6 .container {
+#contact .container {
   max-width: 600px;
   width: 100%;
   margin: 0 auto;
@@ -611,8 +620,8 @@ span.comments{
 }
 
 #contact {
-  padding: 25px;
-  margin: 80px 0;
+  padding: 30px 0;
+  box-sizing: border-box;
 }
 
 #contact h3 {
