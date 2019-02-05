@@ -578,7 +578,10 @@ span.comments{
 /* ##########################################  End of section 5 (Blog Section) ####################### */
 
 #favourite{
-  background: #f5f5f5;
+  background: url(images/grey-bg3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .favourite-title{
   font-size: 48px;
@@ -592,7 +595,7 @@ span.comments{
 }
 .fav-content img{
   max-width: 100%;
-  width:220px;
+  width:260px;
 }
 .fav-content p{
   text-align: center;
