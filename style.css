@@ -21,20 +21,20 @@ h1,h2,h3{
   text-transform: uppercase;
 }
 h1{
-	font-size:52px; 
+	font-size:62px; 
 	margin:0;
-	color:#333;
+	color:#1d1d1d;
 	text-align:center;
   padding-bottom: 50px;
 }
 h2{
-  color:#3e3e3e;
+  color:#1d1d1d;
   padding-top: 20px;
-  font-size: 42px;
+  font-size: 38px;
   text-transform: capitalize;
 }
 h3{
-  font-size: 22px;
+  font-size: 16px;
 }
 
 /* Global container */
@@ -254,7 +254,9 @@ img {
 
 #home{
 /*background-image: url(images/bghome.jpeg);*/
-background-image: url(images/nyc.jpg);
+background-image: url(images/nyc2.jpg);
+background-position: center;
+background-size: cover;
 }
 #home h1,h2{
   padding:0;
@@ -264,7 +266,7 @@ background-image: url(images/nyc.jpg);
     margin: 0 0 50px 0;
 }
 #home p{
-  color:#403f3f;
+  color:#1d1d1d;
   padding-top: 10px;
   text-align: center;
   font-size: 21px;
@@ -305,12 +307,12 @@ background-image: url(images/nyc.jpg);
   color: #333;
 }
 .fa:hover{
-  color:#c5aa80;
+  color:#4a867c;
 }
 /* ############################################ End of home section  ###################### */
 #about{
-background-color:rgb(238,223,252); 
-background-image: url('images/black-bg.jpg');
+background-color:rgb(224, 224, 224); 
+/*background-image: url('images/black-bg.jpg');*/
 }
 .about-content{
   float: left;
