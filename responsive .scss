@@ -1,0 +1,31 @@
+/* Responsisive stylesheet */
+/* Smartphones (portrait and landscape) ----------- */
+
+
+
+/* Desktops and laptops ----------- */
+@media (min-width : 1024px) {
+/* Styles */
+.fav-content{
+    width:33.333%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0 20px;
+    text-align: center;
+  }
+  .quote{
+    font-size: 2vw;
+    font-style: italic;
+    line-height: 1.2em;
+    &-author{
+      font-size: 1.5vw;
+    }
+  }
+
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+/* Styles */
+}
+

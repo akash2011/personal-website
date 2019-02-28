@@ -1,0 +1,2 @@
+$(document).ready(function(){$("#fullpage").fullpage({navigation:!0,navigationPosition:"right",navigationTooltips:["Home","About","Experiences","Skills","Blog","Favourite","Contact"],showActiveTooltip:!0,slidesNavigation:!0,slidesNavPosition:"bottom",controlArrows:!1}),$("#skills-list").load("skills.html");var o=(new Date).getFullYear();document.getElementById("year").innerHTML=o});
+//# sourceMappingURL=custom-dist.js.map
